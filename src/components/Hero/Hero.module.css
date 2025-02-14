@@ -20,15 +20,16 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+    rgba(255, 255, 255, 0) 120% */
+    background:#2d2d2d;
+  
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -51,9 +52,9 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 100%;
   z-index: 1;
-
+  border-radius: 100%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
