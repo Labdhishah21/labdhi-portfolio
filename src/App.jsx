@@ -10,7 +10,7 @@ import ProjectDesc from "./components/Projects/ProjectDesc"; // Import ProjectDe
 
 function App() {
   return (
-    <Router>
+    <Router basename="/labdhi-portfolio">
       <div className={styles.App}>
         <Navbar />
         <Routes>
