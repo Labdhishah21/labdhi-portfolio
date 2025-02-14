@@ -1,0 +1,23 @@
+[
+    {
+      "title": "GemmaGlow",
+      "imageSrc": "projects/project.png",
+      "description": "Built an eCommerce site for jewelry with admin control, smooth checkout, and auto invoices.",
+      "skills": ["NextJS", "MongoDB", "Tailwind"],
+      "slug":"project-a"
+    },
+    {
+      "title": "EventVista",
+      "imageSrc": "projects/project.png",
+      "description": "Built an event booking system with venue selection, admin tracking, and automated receipts.",
+      "skills": ["React", "MariaDB", "Node","Express"],
+      "slug":"project-b"
+    },
+    {
+      "title": "StockRush",
+      "imageSrc": "projects/project.png",
+      "description": "Built a multiplayer virtual stock market game with ML-driven news and strategic trading.",
+      "skills": ["React", "Express", "Node","MongoDB"],
+      "slug":"project-c"
+    }
+  ]

@@ -1,0 +1,19 @@
+[
+    {
+      "sub": "Java Course",
+      "organisation": "",
+      "startDate": "Aug, 2023",
+      "endDate": "Oct, 2023",
+      "experiences": ["Learnt Java Language", "Data Structures in Java","Desktop and Web Apps"],
+      "imageSrc": "history/google.png"
+    },
+    {
+      "sub": "JavaScript ,",
+      "organisation": "CodeSprint Technologies",
+      "startDate": "Aug, 2024",
+      "endDate": "Sept, 2024",
+      "experiences": ["Implemented some JavaScript features"],
+      "imageSrc": "history/microsoft.png"
+    }
+    
+  ]

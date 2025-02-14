@@ -1,0 +1,77 @@
+@import "../../vars.css"; /* Import global variables */
+
+/* Center the content with spacing */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 80px auto; /* Add top margin to avoid navbar overlap */
+  max-width: 600px;
+  background: linear-gradient(180deg, #DFC69D 0%, #6F4D38 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+/* Image Styling */
+.image {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Description Text */
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skillsTitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: 20px;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.skill {
+  font-size: 18px;
+  font-weight: 500;
+  background: var(--color-dark);
+  color: var(--color-text);
+  padding: 4px 18px;
+  border-radius: 50px;
+}
+
+/* Error Message */
+.notFound {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  margin-top: 50px;
+}
