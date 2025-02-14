@@ -8,9 +8,11 @@ import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 import ProjectDesc from "./components/Projects/ProjectDesc"; // Import ProjectDesc
 
+const basename = import.meta.env.MODE === "production" ? "/labdhi-portfolio" : "/";
+
 function App() {
   return (
-    <Router basename="/labdhi-portfolio">
+    <Router basename={basename}>
       <div className={styles.App}>
         <Navbar />
         <Routes>
