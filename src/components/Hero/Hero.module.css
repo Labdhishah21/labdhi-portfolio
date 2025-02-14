@@ -112,3 +112,51 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 15px 20px;
+    margin: 40px auto;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-width: 300px;
+    margin: 15px 0;
+  }
+
+  .skillsTitle {
+    font-size: 24px;
+  }
+
+  .skill {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .image {
+    max-width: 250px;
+  }
+
+  .skillsTitle {
+    font-size: 20px;
+  }
+}
